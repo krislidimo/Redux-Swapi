@@ -12,7 +12,7 @@ import rootReducer from "./reducers";
 // rootReducer from ./reducers
 
 const store = createStore(
-  rootReducer
+  rootReducer,
   /* applyMiddleware goes here */
 );
 
